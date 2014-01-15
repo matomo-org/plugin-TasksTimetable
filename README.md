@@ -2,17 +2,18 @@
 
 ## Description
 
-Add your plugin description here.
+Plugin to list all scheduled tasks: Name of the tasks and next execution time displayed in a table. 
 
 ## FAQ
 
-__My question?__
-My answer
+__Where can I find the timetable?__
+
+It is located as a menu item under diagnostics on the settings page. 
 
 ## Changelog
 
-Here goes the changelog text.
+
 
 ## Support
 
-Please direct any feedback to ...
+Please direct any feedback to hello@piwik.org

@@ -1,35 +1,21 @@
 {% extends 'dashboard.twig' %}
-{% block content %}
+	{% block content %}
 
-    <div class="centerLargeDiv">
-      
-   
-
-<h3>Scheduled Tasks</h3>
-<table class="tableForm dataTable entityTable">
-    <tr>
-        <td>Name</td>
-        <td>Date</td>
-        
-    </tr>
-
-<h1>Tasks</h1>
-
-    {% for name, timestamp in tasks %}
-    <tr>
-        <td>{{name}}</td>
-        <td>
-
-    {{timestamp|date() }}      
-
-</td>
-        
-    </tr>
-    {% endfor %}
+	    <div class="centerLargeDiv">
+		    <h1>{{ 'CoreAdminHome_ScheduledTasks'|translate }}</h1>
+		    <table class="tableForm dataTable entityTable">
+		        <tr>
+		            <td>{{ 'General_Name'|translate }}</td>
+			        <td>{{ 'General_Date'|translate }}</td>
+		        </tr>
+		        {% for name, timestamp in tasks %}
+		        <tr>
+				    <td>{{name}}</td>
+				    <td>{{timestamp|date() }}</td>
+		        </tr>
+	           {% endfor %}
+		    </table>
+	    </div>
 
 
-</table>
-
-    </div>
 {% endblock %}
-

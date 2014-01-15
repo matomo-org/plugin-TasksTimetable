@@ -1,0 +1,6 @@
+{
+ "name": "TasksTimetable",
+ "version": "0.1.0",
+ "description": "list all scheduled tasks: Name of the tasks and next execution time",
+ "theme": false
+}

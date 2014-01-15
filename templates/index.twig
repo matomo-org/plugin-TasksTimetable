@@ -1,0 +1,35 @@
+{% extends 'dashboard.twig' %}
+{% block content %}
+
+    <div class="centerLargeDiv">
+      
+   
+
+<h3>Scheduled Tasks</h3>
+<table class="tableForm dataTable entityTable">
+    <tr>
+        <td>Name</td>
+        <td>Date</td>
+        
+    </tr>
+
+<h1>Tasks</h1>
+
+    {% for name, timestamp in tasks %}
+    <tr>
+        <td>{{name}}</td>
+        <td>
+
+    {{timestamp|date() }}      
+
+</td>
+        
+    </tr>
+    {% endfor %}
+
+
+</table>
+
+    </div>
+{% endblock %}
+

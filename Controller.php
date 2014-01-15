@@ -24,10 +24,12 @@ class Controller extends \Piwik\Plugin\Controller
     {
         $view = new View('@TasksTimetable/index.twig');
         $this->setGeneralVariablesView($view);
-        $view->tasks =  Option::get('TaskScheduler.timetable');
-	    $view->tasks = unserialize($view->tasks);
-
+        $tasks = Option::get('TaskScheduler.timetable');
+	    $tasks = unserialize($tasks);
+        asort($tasks);
+        $view->tasks = $tasks;
         return $view->render();
+
     }
 }
 

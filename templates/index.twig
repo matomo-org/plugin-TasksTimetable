@@ -12,10 +12,10 @@
                 </thead>
                 <tbody>
                     {% if tasks|length %}
-                        {% for name, timestamp in tasks %}
+                        {% for task in tasks %}
                         <tr>
-                            <td>{{name}}</td>
-                            <td>{{timestamp|date }}</td>
+                            <td>{{ task.name}}</td>
+                            <td>{{ task.timestamp|date }} <span style="color:#999">(in {{ task.ts_difference|raw }})</span></td>
                         </tr>
                        {% endfor %}
                     {% else %}

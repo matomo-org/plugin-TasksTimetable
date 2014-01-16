@@ -10,6 +10,8 @@
  */
 namespace Piwik\Plugins\TasksTimetable;
 
+use Piwik\Date;
+use Piwik\MetricsFormatter;
 use Piwik\View;
 use Piwik\Option;
 
@@ -37,7 +39,18 @@ class Controller extends \Piwik\Plugin\Controller
             asort($tasks);
         }
 
-        $view->tasks = $tasks;
+        $tsNow = Date::now()->getTimestamp();
+
+        $tasksFormatted = array();
+        foreach ($tasks as $name => $timestamp) {
+            $tasksFormatted[] = array(
+                'name'          => $name,
+                'timestamp'     => $timestamp,
+                'ts_difference' => MetricsFormatter::getPrettyTimeFromSeconds($timestamp - $tsNow)
+            );
+        }
+
+        $view->tasks = $tasksFormatted;
 
         return $view->render();
 

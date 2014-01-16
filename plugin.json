@@ -1,6 +1,29 @@
 {
  "name": "TasksTimetable",
  "version": "0.1.0",
- "description": "list all scheduled tasks: Name of the tasks and next execution time",
- "theme": false
+ "description": "Plugin to list all scheduled tasks: Name of the tasks and next execution time displayed in a table. ",
+ "theme": false,
+ "require": {
+     "piwik": ">=2.0.4-b1"
+ },
+ "authors": [
+     {
+         "name": "Piwik",
+         "email": "",
+         "homepage": ""
+     },
+     {
+         "name": "Piwik",
+         "email": "",
+         "homepage": ""
+     },
+     {
+         "name": "Piwik",
+         "email": "hello@piwik.org",
+         "homepage": "http://piwik.org"
+     }
+ ],
+ "license": "GPL v3+",
+ "keywords": ["tasks", "scheduled", "timetable", "monitoring"],
+ "homepage": "http://piwik.org"
 }

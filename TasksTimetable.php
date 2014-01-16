@@ -30,11 +30,11 @@ class TasksTimetable extends \Piwik\Plugin
     public function addMenuItems()
     {
         MenuAdmin::getInstance()->add(
-        'CoreAdminHome_MenuDiagnostic',
-        'Timetable',
-        array('module' => 'TasksTimetable', 'action' => 'index'),
-        $showOnlyIf = Piwik::isUserIsSuperUser(),
-        $order = 6
-    );
+            'CoreAdminHome_MenuDiagnostic',
+            'Timetable',
+            array('module' => 'TasksTimetable', 'action' => 'index'),
+            $showOnlyIf = Piwik::isUserIsSuperUser(),
+            $order = 6
+        );
     }
 }

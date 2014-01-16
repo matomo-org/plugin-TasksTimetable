@@ -4,16 +4,26 @@
 	    <div class="centerLargeDiv">
 		    <h1>{{ 'CoreAdminHome_ScheduledTasks'|translate }}</h1>
 		    <table class="tableForm dataTable entityTable">
-		        <tr>
-		            <td>{{ 'General_Name'|translate }}</td>
-			        <td>{{ 'General_Date'|translate }}</td>
-		        </tr>
-		        {% for name, timestamp in tasks %}
-		        <tr>
-				    <td>{{name}}</td>
-				    <td>{{timestamp|date() }}</td>
-		        </tr>
-	           {% endfor %}
+                <thead>
+                    <tr>
+                        <th>{{ 'General_Name'|translate }}</th>
+                        <th>{{ 'General_Date'|translate }} ({{ 'VisitTime_ColumnServerTime'|translate }})</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% if tasks|length %}
+                        {% for name, timestamp in tasks %}
+                        <tr>
+                            <td>{{name}}</td>
+                            <td>{{timestamp|date }}</td>
+                        </tr>
+                       {% endfor %}
+                    {% else %}
+                        <tr>
+                            <td colspan="2"><br/>No scheduled tasks<br/><br/></td>
+                        </tr>
+                    {% endif %}
+                </tbody>
 		    </table>
 	    </div>
 

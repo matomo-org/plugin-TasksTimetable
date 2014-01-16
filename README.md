@@ -12,8 +12,9 @@ It is located as a menu item under diagnostics on the settings page.
 
 ## Changelog
 
-
+* 0.1.0 Initial release
 
 ## Support
 
-Please direct any feedback to hello@piwik.org
+Please direct any feedback to [hello@piwik.org](mailto:hello@piwik.org)
+

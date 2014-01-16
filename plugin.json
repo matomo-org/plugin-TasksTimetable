@@ -1,19 +1,16 @@
 {
  "name": "TasksTimetable",
- "version": "0.1.0",
+ "version": "0.1.1",
  "description": "Plugin to list all scheduled tasks: Name of the tasks and next execution time displayed in a table.",
  "theme": false,
- "require": {
-     "piwik": ">=2.0.4-b1"
- },
  "authors": [
      {
-         "name": "Megan L.",
+         "name": "Megan Liang",
          "email": "",
          "homepage": ""
      },
      {
-         "name": "Jay D.",
+         "name": "Jay Deshpande",
          "email": "",
          "homepage": ""
      },

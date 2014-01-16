@@ -12,6 +12,7 @@ namespace Piwik\Plugins\TasksTimetable;
 
 use Piwik\Date;
 use Piwik\MetricsFormatter;
+use Piwik\Piwik;
 use Piwik\View;
 use Piwik\Option;
 
@@ -24,6 +25,8 @@ class Controller extends \Piwik\Plugin\ControllerAdmin
 
     public function index()
     {
+        Piwik::checkUserIsSuperUser();
+
         $view = new View('@TasksTimetable/index.twig');
         $this->setGeneralVariablesView($view);
 

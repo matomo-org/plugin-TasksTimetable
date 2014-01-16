@@ -8,7 +8,7 @@ Plugin to list all scheduled tasks: Name of the tasks and next execution time di
 
 __Where can I find the timetable?__
 
-It is located as a menu item under diagnostics on the settings page. 
+It is located as a menu item "Scheduled Tasks" under diagnostics on the settings page.
 
 ## Changelog
 

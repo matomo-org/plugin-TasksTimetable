@@ -1,0 +1,7 @@
+{
+    "TasksTimetable": {
+        "ScheduledTasks": "Scheduled Tasks",
+        "MainDescription": "The following tasks are scheduled to be executed based on the current server time %s.",
+        "NothingScheduled": "No scheduled tasks"
+    }
+}

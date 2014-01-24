@@ -42,19 +42,20 @@ class Controller extends \Piwik\Plugin\ControllerAdmin
             asort($tasks);
         }
 
-        $tsNow = Date::now()->getTimestamp();
+        $tsNow      = Date::now()->getTimestamp();
+        $dateFormat = Piwik::translate('CoreHome_DateFormat') . ' %time%';
 
         $tasksFormatted = array();
         foreach ($tasks as $name => $timestamp) {
             $tasksFormatted[] = array(
                 'name'          => $name,
-                'timestamp'     => $timestamp,
+                'executionDate' => Date::factory($timestamp)->getLocalized($dateFormat),
                 'ts_difference' => MetricsFormatter::getPrettyTimeFromSeconds($timestamp - $tsNow)
             );
         }
 
-        $view->now   = $tsNow;
-        $view->tasks = $tasksFormatted;
+        $view->serverTime = Date::now()->getLocalized($dateFormat);
+        $view->tasks      = $tasksFormatted;
 
         return $view->render();
 

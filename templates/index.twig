@@ -2,10 +2,10 @@
 	{% block content %}
 
 	    <div class="centerLargeDiv">
-		    <h2>{{ 'CoreAdminHome_ScheduledTasks'|translate }}</h2>
+		    <h2>{{ 'TasksTimetable_ScheduledTasks'|translate }}</h2>
 
             <p>
-                The following tasks are scheduled to be executed based on the current server time {{ now|date }}.
+                {{ 'TasksTimetable_MainDescription'|translate(serverTime) }}
             </p>
 		    <table class="tableForm dataTable entityTable">
                 <thead>
@@ -19,12 +19,12 @@
                         {% for task in tasks %}
                         <tr>
                             <td>{{ task.name}}</td>
-                            <td>{{ task.timestamp|date }} <span style="color:#999">(in {{ task.ts_difference|raw }})</span></td>
+                            <td>{{ task.executionDate }}<br /><span style="color:#999">(in {{ task.ts_difference|raw }})</span></td>
                         </tr>
                        {% endfor %}
                     {% else %}
                         <tr>
-                            <td colspan="2"><br/>No scheduled tasks<br/><br/></td>
+                            <td colspan="2"><br/>{{ 'TasksTimetable_NothingScheduled'|translate }}<br/><br/></td>
                         </tr>
                     {% endif %}
                 </tbody>

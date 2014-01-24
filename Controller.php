@@ -53,7 +53,7 @@ class Controller extends \Piwik\Plugin\ControllerAdmin
             );
         }
 
-        $view->now   = Date::now()->getTimestamp();
+        $view->now   = $tsNow;
         $view->tasks = $tasksFormatted;
 
         return $view->render();

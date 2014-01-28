@@ -20,6 +20,9 @@
          "homepage": "http://piwik.org"
      }
  ],
+ "require": {
+     "piwik": ">=2.0.4-b5"
+ },
  "license": "GPL v3+",
  "keywords": ["tasks", "scheduled", "timetable", "monitoring"],
  "homepage": "http://piwik.org"

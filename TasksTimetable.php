@@ -33,7 +33,7 @@ class TasksTimetable extends \Piwik\Plugin
             'CoreAdminHome_MenuDiagnostic',
             'TasksTimetable_ScheduledTasks',
             array('module' => 'TasksTimetable', 'action' => 'index'),
-            $showOnlyIf = Piwik::isUserIsSuperUser(),
+            $showOnlyIf = Piwik::hasUserSuperUserAccess(),
             $order = 6
         );
     }

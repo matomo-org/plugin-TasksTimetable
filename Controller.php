@@ -25,7 +25,7 @@ class Controller extends \Piwik\Plugin\ControllerAdmin
 
     public function index()
     {
-        Piwik::checkUserIsSuperUser();
+        Piwik::checkUserHasSuperUserAccess();
 
         $view = new View('@TasksTimetable/index.twig');
         $this->setGeneralVariablesView($view);

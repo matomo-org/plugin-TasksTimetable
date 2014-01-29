@@ -1,0 +1,7 @@
+{
+    "TasksTimetable": {
+        "MainDescription": "Le seguenti attività sono pianificate per essere eseguite in base all'orario corrente del server %s.",
+        "NothingScheduled": "Non ci sono attività pianificate",
+        "ScheduledTasks": "Attività pianificate"
+    }
+}

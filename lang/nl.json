@@ -1,0 +1,7 @@
+{
+    "TasksTimetable": {
+        "MainDescription": "De volgende taken zijn gepland om uit te voeren gebaseerd op de huidige server tijd %s.",
+        "NothingScheduled": "Geen geplande taken",
+        "ScheduledTasks": "Geplande Taken"
+    }
+}

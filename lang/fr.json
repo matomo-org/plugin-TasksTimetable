@@ -1,5 +1,7 @@
 {
     "TasksTimetable": {
+        "MainDescription": "Les tâches suivantes sont planifiées pour être exécutées en fonction de l'heure du serveur courant %s.",
+        "NothingScheduled": "Aucune tâche planifiée",
         "ScheduledTasks": "Tâches planifiées"
     }
 }

@@ -1,6 +1,6 @@
 {
  "name": "TasksTimetable",
- "version": "0.1.3",
+ "version": "0.1.4",
  "description": "Plugin to list all scheduled tasks: Name of the tasks and next execution time displayed in a table.",
  "theme": false,
  "authors": [

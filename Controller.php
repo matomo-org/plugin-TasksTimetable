@@ -10,9 +10,9 @@ namespace Piwik\Plugins\TasksTimetable;
 
 use Piwik\Date;
 use Piwik\MetricsFormatter;
+use Piwik\Option;
 use Piwik\Piwik;
 use Piwik\View;
-use Piwik\Option;
 
 /**
  *

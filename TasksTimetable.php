@@ -7,8 +7,8 @@
  *
  */
 namespace Piwik\Plugins\TasksTimetable;
-use Piwik\Piwik;
 use Piwik\Menu\MenuAdmin;
+use Piwik\Piwik;
 
 /**
  */

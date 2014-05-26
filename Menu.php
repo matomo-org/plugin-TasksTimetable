@@ -7,26 +7,15 @@
  *
  */
 namespace Piwik\Plugins\TasksTimetable;
+
 use Piwik\Menu\MenuAdmin;
 use Piwik\Piwik;
 
-/**
- */
-class TasksTimetable extends \Piwik\Plugin
+class Menu extends \Piwik\Plugin\Menu
 {
-    /**
-     * @see Piwik\Plugin::getListHooksRegistered
-     */
-    public function getListHooksRegistered()
+    public function configureAdminMenu(MenuAdmin $menu)
     {
-        return array(
-            'Menu.Admin.addItems' => 'addMenuItems',
-        );
-    }
-
-    public function addMenuItems()
-    {
-        MenuAdmin::getInstance()->add(
+        $menu->add(
             'CoreAdminHome_MenuDiagnostic',
             'TasksTimetable_ScheduledTasks',
             array('module' => 'TasksTimetable', 'action' => 'index'),

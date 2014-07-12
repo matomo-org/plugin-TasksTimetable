@@ -1,0 +1,7 @@
+{
+    "TasksTimetable": {
+        "MainDescription": "Următoarele sarcini sunt programate sa fie executate pe baza timpului de pe server %s.",
+        "NothingScheduled": "Nu sunt programate sarcini",
+        "ScheduledTasks": "Activități programate"
+    }
+}

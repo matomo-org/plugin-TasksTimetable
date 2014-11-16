@@ -1,0 +1,7 @@
+{
+    "TasksTimetable": {
+        "MainDescription": "Ang mga sumusunod na gawain ay naka-iskedyul upang ipatupad base sa kasalukuyang oras ng server %s.",
+        "NothingScheduled": "Walang mga naka-iskedyul na mga gawain",
+        "ScheduledTasks": "Naka-iskedyul na mga Gawain"
+    }
+}

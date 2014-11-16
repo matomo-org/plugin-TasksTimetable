@@ -1,0 +1,7 @@
+{
+    "TasksTimetable": {
+        "MainDescription": "次のタスクは、現在のサーバータイム %s に基づいて実行されるようスケジュールされています。",
+        "NothingScheduled": "スケジュールされたタスクはありません",
+        "ScheduledTasks": "スケジュールタスク"
+    }
+}

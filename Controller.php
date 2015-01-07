@@ -9,7 +9,7 @@
 namespace Piwik\Plugins\TasksTimetable;
 
 use Piwik\Date;
-use Piwik\MetricsFormatter;
+use Piwik\Metrics\Formatter;
 use Piwik\Option;
 use Piwik\Piwik;
 use Piwik\View;
@@ -42,12 +42,14 @@ class Controller extends \Piwik\Plugin\ControllerAdmin
         $tsNow      = Date::now()->getTimestamp();
         $dateFormat = Piwik::translate('CoreHome_DateFormat') . ' %time%';
 
+        $formatter = new Formatter();
+
         $tasksFormatted = array();
         foreach ($tasks as $name => $timestamp) {
             $tasksFormatted[] = array(
                 'name'          => $name,
                 'executionDate' => Date::factory($timestamp)->getLocalized($dateFormat),
-                'ts_difference' => MetricsFormatter::getPrettyTimeFromSeconds($timestamp - $tsNow)
+                'ts_difference' => $formatter->getPrettyTimeFromSeconds($timestamp - $tsNow)
             );
         }
 

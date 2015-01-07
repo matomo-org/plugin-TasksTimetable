@@ -5,7 +5,7 @@
 		    <h2>{{ 'TasksTimetable_ScheduledTasks'|translate }}</h2>
 
             <p>
-                {{ 'TasksTimetable_MainDescription'|translate(serverTime) }}
+                {{ 'TasksTimetable_MainDescription'|translate('<span class="server-time">'~serverTime~'</span>')|raw }}
             </p>
 		    <table class="tableForm dataTable entityTable">
                 <thead>

@@ -17,6 +17,8 @@ class FakeTasksFixture extends Fixture
     {
         parent::setUp();
 
+        self::updateDatabase();
+
         self::createWebsite("2012-01-01 00:00:00");
 
         $fakeTasks = array(

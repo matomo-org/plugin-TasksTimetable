@@ -13,7 +13,7 @@ describe("TasksTimetableReport", function () {
     this.fixture = "Piwik\\Plugins\\TasksTimetable\\Test\\Fixtures\\FakeTasksFixture";
 
     it('should load the tasks timetable correctly', function (done) {
-        expect.screenshot('tasks_timetable').to.be.captureSelector('#content', function (page) {
+        expect.screenshot('tasks_timetable').to.be.captureSelector('#content>*', function (page) {
             page.load("?module=TasksTimetable&action=index&idSite=1&period=day&date=yesterday");
 
             // remove time values that change on each test run

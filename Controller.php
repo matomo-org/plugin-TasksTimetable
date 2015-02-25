@@ -53,8 +53,8 @@ class Controller extends \Piwik\Plugin\ControllerAdmin
             );
         }
 
-        $view->serverTime = Date::now()->getLocalized($dateFormat);
-        $view->tasks      = $tasksFormatted;
+        $view->currentTime = Date::now()->getLocalized($dateFormat);
+        $view->tasks       = $tasksFormatted;
 
         return $view->render();
 

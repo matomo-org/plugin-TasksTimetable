@@ -1,29 +1,29 @@
 {
- "name": "TasksTimetable",
- "version": "0.1.4",
- "description": "List all maintenance tasks that are scheduled to run. Displays the task names and next execution time in a table.",
- "theme": false,
- "authors": [
-     {
-         "name": "Megan Liang",
-         "email": "",
-         "homepage": ""
-     },
-     {
-         "name": "Jay Deshpande",
-         "email": "",
-         "homepage": ""
-     },
-     {
-         "name": "Piwik",
-         "email": "hello@piwik.org",
-         "homepage": "http://piwik.org"
-     }
- ],
- "require": {
-     "piwik": ">=2.4.0-b1"
- },
- "license": "GPL v3+",
- "keywords": ["tasks", "scheduled", "timetable", "monitoring"],
- "homepage": "http://piwik.org"
+  "name": "TasksTimetable",
+  "version": "0.1.4",
+  "description": "List all maintenance tasks that are scheduled to run. Displays the task names and next execution time in a table.",
+  "theme": false,
+  "authors": [
+    {
+      "name": "Megan Liang",
+      "email": "",
+      "homepage": ""
+    },
+    {
+      "name": "Jay Deshpande",
+      "email": "",
+      "homepage": ""
+    },
+    {
+      "name": "Piwik",
+      "email": "hello@piwik.org",
+      "homepage": "http://piwik.org"
+    }
+  ],
+  "require": {
+    "piwik": ">=2.4.0-b1"
+  },
+  "license": "GPL v3+",
+  "keywords": ["tasks", "scheduled", "timetable", "monitoring"],
+  "homepage": "http://piwik.org"
 }

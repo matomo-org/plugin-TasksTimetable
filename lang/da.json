@@ -1,6 +1,5 @@
 {
     "TasksTimetable": {
-        "MainDescription": "De følgende opgaver er planlagt til at blive udført baseret på nuværende servertid %s.",
         "NothingScheduled": "Ingen planlagte opgaver",
         "ScheduledTasks": "Planlagte opgaver"
     }

@@ -1,6 +1,5 @@
 {
     "TasksTimetable": {
-        "MainDescription": "Sledeći zadaci su zakazani za izvršenje a na osnovu trenutnog serverskog vremena %s.",
         "NothingScheduled": "Nema zakazanih zadataka",
         "ScheduledTasks": "Zakazani zadaci"
     }

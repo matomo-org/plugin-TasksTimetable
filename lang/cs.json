@@ -1,6 +1,5 @@
 {
     "TasksTimetable": {
-        "MainDescription": "Následující úlohy jsou naplánovány ke spuštění na základě aktuálního serverového času %s.",
         "NothingScheduled": "Žádné naplánované úlohy",
         "ScheduledTasks": "Naplánované úlohy"
     }

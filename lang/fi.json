@@ -1,6 +1,5 @@
 {
     "TasksTimetable": {
-        "MainDescription": "Seuraavat tehtävät on asetettu suoritettaviksi, kun palvelimen aika on %s.",
         "NothingScheduled": "Ei tulevia tapahtumia",
         "ScheduledTasks": "Ajastetut tehtävät"
     }

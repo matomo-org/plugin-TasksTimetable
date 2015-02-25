@@ -1,6 +1,5 @@
 {
     "TasksTimetable": {
-        "MainDescription": "Las siguientes tareas son programadas para ser ejecutadas basado en la hora actual del servidor %s.",
         "NothingScheduled": "No hay tareas programadas",
         "ScheduledTasks": "Tareas programadas"
     }

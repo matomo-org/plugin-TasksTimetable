@@ -1,6 +1,6 @@
 {
     "TasksTimetable": {
-        "NothingScheduled": "No hay tareas programadas",
-        "ScheduledTasks": "Tareas programadas"
+        "ScheduledTasks": "Tareas programadas",
+        "NothingScheduled": "No hay tareas programadas"
     }
 }

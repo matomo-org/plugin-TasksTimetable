@@ -1,6 +1,6 @@
 {
     "TasksTimetable": {
-        "NothingScheduled": "Inga schemalagda aktiviteter",
-        "ScheduledTasks": "Planerade uppdrag"
+        "ScheduledTasks": "Planerade uppdrag",
+        "NothingScheduled": "Inga schemalagda aktiviteter"
     }
 }

@@ -1,6 +1,7 @@
 {
     "TasksTimetable": {
-        "NothingScheduled": "Žádné naplánované úlohy",
-        "ScheduledTasks": "Naplánované úlohy"
+        "ScheduledTasks": "Naplánované úlohy",
+        "Introduction": "Na základě aktuálního UTC času %s jsou naplánovány ke spuštění následující úlohy.",
+        "NothingScheduled": "Žádné naplánované úlohy"
     }
 }

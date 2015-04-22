@@ -1,6 +1,6 @@
 {
     "TasksTimetable": {
-        "NothingScheduled": "Nu sunt programate sarcini",
-        "ScheduledTasks": "Activități programate"
+        "ScheduledTasks": "Activități programate",
+        "NothingScheduled": "Nu sunt programate sarcini"
     }
 }

@@ -1,6 +1,6 @@
 {
     "TasksTimetable": {
-        "NothingScheduled": "Ei tulevia tapahtumia",
-        "ScheduledTasks": "Ajastetut tehtävät"
+        "ScheduledTasks": "Ajastetut tehtävät",
+        "NothingScheduled": "Ei tulevia tapahtumia"
     }
 }

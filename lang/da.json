@@ -1,6 +1,7 @@
 {
     "TasksTimetable": {
-        "NothingScheduled": "Ingen planlagte opgaver",
-        "ScheduledTasks": "Planlagte opgaver"
+        "ScheduledTasks": "Planlagte opgaver",
+        "Introduction": "Følgende opgaver er planlagt til at blive udført baseret på den aktuelle UTC-tid: %s.",
+        "NothingScheduled": "Ingen planlagte opgaver"
     }
 }

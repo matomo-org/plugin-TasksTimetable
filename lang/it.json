@@ -1,7 +1,7 @@
 {
     "TasksTimetable": {
+        "ScheduledTasks": "Attività pianificate",
         "Introduction": "I seguenti task sono programmati per essere eseguiti in base all'ora corrente UTC: %s.",
-        "NothingScheduled": "Non ci sono attività pianificate",
-        "ScheduledTasks": "Attività pianificate"
+        "NothingScheduled": "Non ci sono attività pianificate"
     }
 }

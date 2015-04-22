@@ -1,6 +1,6 @@
 {
     "TasksTimetable": {
-        "NothingScheduled": "Walang mga naka-iskedyul na mga gawain",
-        "ScheduledTasks": "Naka-iskedyul na mga Gawain"
+        "ScheduledTasks": "Naka-iskedyul na mga Gawain",
+        "NothingScheduled": "Walang mga naka-iskedyul na mga gawain"
     }
 }

@@ -1,0 +1,7 @@
+{
+    "TasksTimetable": {
+        "ScheduledTasks": "Tasques programades",
+        "Introduction": "Les següents tasques estan programades per ser executades basades amb l'hora UTC actual : %s.",
+        "NothingScheduled": "No hi ha tasques programades"
+    }
+}

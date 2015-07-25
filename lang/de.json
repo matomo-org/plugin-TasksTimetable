@@ -1,6 +1,7 @@
 {
     "TasksTimetable": {
         "ScheduledTasks": "Geplante Aufgaben",
+        "Introduction": "Auf Basis der aktuellen UTC-Zeit (%s) sind folgende Aufgaben zur Ausführung geplant.",
         "NothingScheduled": "Keine geplanten Aufgaben"
     }
 }

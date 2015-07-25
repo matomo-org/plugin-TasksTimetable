@@ -1,6 +1,7 @@
 {
     "TasksTimetable": {
         "ScheduledTasks": "スケジュールタスク",
+        "Introduction": "現在の UTC 時刻に基づいて、次のタスクが実行されるスケジュール: %s",
         "NothingScheduled": "スケジュールされたタスクはありません"
     }
 }

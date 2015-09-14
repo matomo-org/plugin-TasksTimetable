@@ -1,8 +1,10 @@
 {% extends 'admin.twig' %}
 
+{% set title %}{{ 'TasksTimetable_ScheduledTasks'|translate }}{% endset %}
+
 {% block content %}
 
-    <h2>{{ 'TasksTimetable_ScheduledTasks'|translate }}</h2>
+    <h2>{{ title }}</h2>
 
     <p>
         {{ 'TasksTimetable_Introduction'|translate('<span class="server-time">'~currentTime~'</span>')|raw }}

@@ -10,7 +10,7 @@
 describe("TasksTimetableReport", function () {
     this.timeout(0);
 
-    this.fixture = "Piwik\\Plugins\\TasksTimetable\\Test\\Fixtures\\FakeTasksFixture";
+    this.fixture = "Piwik\\Plugins\\TasksTimetable\\tests\\Fixtures\\FakeTasksFixture";
 
     it('should load the tasks timetable correctly', function (done) {
         expect.screenshot('tasks_timetable').to.be.captureSelector('#content>*', function (page) {

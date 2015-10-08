@@ -15,7 +15,7 @@ env:
   global:
     - PLUGIN_NAME=TasksTimetable
     - PIWIK_ROOT_DIR=$TRAVIS_BUILD_DIR/piwik
-    - PIWIK_LATEST_STABLE_TEST_TARGET=2.15.0-b15
+    - PIWIK_LATEST_STABLE_TEST_TARGET=2.15.0-b16
     - secure: "Q78FSHc+/g9T7Yk1BYLQEy5ckQSBCbbdSYlZnhgrMt2DRuVjZ+Xi94L6riFVZU53ykDgEngZeuVl5wGEGt5I3oYqbd61D416kJCnEduUY3oerJ0SyJQI/EQh1Vm00FufHnFJxpcazyYIZi1dlpUbWK5FQTfTZyctdC3gPwKys7c="
     - secure: "SqKBvPV1ntvCeQPB+exmjReMAHS2/9Ks9lCqOGjmVLBJlvjqmlXYrzML10oZ4O9+RO9WcHotVL/ZBnCZ8Vl/Db6bdP9sggek9z5cBaZTtqhCaqZPIjtF42+rR6uZy6LPvmeFfkq+NkvGITLFIYLcE68vstga2q/w5fbRxknRoe0="
   matrix:

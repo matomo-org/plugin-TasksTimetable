@@ -40,7 +40,7 @@ class Controller extends \Piwik\Plugin\ControllerAdmin
         }
 
         $tsNow      = Date::now()->getTimestamp();
-        $dateFormat = Piwik::translate('CoreHome_DateFormat') . ' %time%';
+        $dateFormat = Piwik::translate(Date::DATE_FORMAT_LONG) . ' h:mm:ss';
 
         $formatter = new Formatter();
 

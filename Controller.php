@@ -40,7 +40,6 @@ class Controller extends \Piwik\Plugin\ControllerAdmin
         }
 
         $tsNow      = Date::now()->getTimestamp();
-        $dateFormat = Piwik::translate(Date::DATE_FORMAT_LONG) . ' h:mm:ss';
 
         $formatter = new Formatter();
 
@@ -48,16 +47,28 @@ class Controller extends \Piwik\Plugin\ControllerAdmin
         foreach ($tasks as $name => $timestamp) {
             $tasksFormatted[] = array(
                 'name'          => $name,
-                'executionDate' => Date::factory($timestamp)->getLocalized($dateFormat),
+                'executionDate' => $this->getFormattedDatetime($timestamp),
                 'ts_difference' => $formatter->getPrettyTimeFromSeconds($timestamp - $tsNow)
             );
         }
 
-        $view->currentTime = Date::now()->getLocalized($dateFormat);
+        $view->currentTime = $this->getFormattedDatetime(Date::now()->getTimestampUTC());
         $view->tasks       = $tasksFormatted;
 
         return $view->render();
 
+    }
+
+    /**
+     * @param $timestamp
+     * @param $dateFormat
+     * @return string
+     * @throws \Exception
+     */
+    protected function getFormattedDatetime($timestamp)
+    {
+        $dateFormat = Piwik::translate(Date::DATE_FORMAT_LONG);
+        return Date::factory($timestamp)->getLocalized($dateFormat) . ' ' . Date::factory($timestamp)->getLocalized(' h:mm:ss');
     }
 }
 

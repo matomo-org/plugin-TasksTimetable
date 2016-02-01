@@ -14,6 +14,7 @@ It is located as a menu item "Scheduled Tasks" under diagnostics on the settings
 
 ## Changelog
 
+* 0.2.1 Minor translation updates.
 * 0.2.0 Compatibility w/ Piwik 2.15.
 * 0.1.0 Initial release
 

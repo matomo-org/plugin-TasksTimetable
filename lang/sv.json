@@ -1,6 +1,7 @@
 {
     "TasksTimetable": {
         "ScheduledTasks": "Planerade uppdrag",
+        "Introduction": "Följande uppdrag är schemalagda för exekvering baserat på nuvarande UTC-tiden: %s.",
         "NothingScheduled": "Inga schemalagda aktiviteter"
     }
 }

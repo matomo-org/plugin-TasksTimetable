@@ -2,8 +2,6 @@
 
 language: php
 
-group: legacy
-
 php:
   - 5.6
   - 5.3

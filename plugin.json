@@ -21,7 +21,7 @@
     }
   ],
   "require": {
-    "piwik": ">=2.15.0-rc4"
+    "piwik": ">=2.15.0-rc4,<3.0.0-b1"
   },
   "license": "GPL v3+",
   "keywords": ["tasks", "scheduled", "timetable", "monitoring"],

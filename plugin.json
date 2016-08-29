@@ -1,6 +1,6 @@
 {
   "name": "TasksTimetable",
-  "version": "0.2.2",
+  "version": "1.0.0",
   "description": "List all maintenance tasks that are scheduled to run. Displays the task names and next execution time in a table.",
   "theme": false,
   "authors": [
@@ -21,7 +21,7 @@
     }
   ],
   "require": {
-    "piwik": ">=2.15.0-rc4,<3.0.0-b1"
+    "piwik": ">=3.0.0-b1,<4.0.0-b1"
   },
   "license": "GPL v3+",
   "keywords": ["tasks", "scheduled", "timetable", "monitoring"],

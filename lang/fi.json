@@ -1,6 +1,7 @@
 {
     "TasksTimetable": {
         "ScheduledTasks": "Ajastetut tehtävät",
+        "Introduction": "Seuraavat tehtävät on ajoitettu alkamaan nykyisen UTC-ajan mukaan: %s.",
         "NothingScheduled": "Ei tulevia tapahtumia"
     }
 }

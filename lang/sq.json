@@ -1,6 +1,7 @@
 {
     "TasksTimetable": {
         "ScheduledTasks": "Akte të Planifikuar",
+        "Introduction": "Aktet vijues janë planifikuar për t’u kryer bazuar në formatin e tanishëm UTC për kohën: %s.",
         "NothingScheduled": "Pa akte të planifikuar"
     }
 }

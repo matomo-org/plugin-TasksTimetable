@@ -1,0 +1,7 @@
+{
+    "TasksTimetable": {
+        "ScheduledTasks": "已排定任務",
+        "Introduction": "下列任務已排定執行於：%s。",
+        "NothingScheduled": "沒有排定的任務"
+    }
+}

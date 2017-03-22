@@ -18,8 +18,8 @@ describe("TasksTimetableReport", function () {
 
             // remove time values that change on each test run
             page.evaluate(function () {
-                $('span.server-time').text('');
-                $('#content table td > span:contains("(in")').text('(in )');
+//                $('span.server-time').text('');
+//                $('#content table td > span:contains("(in")').text('(in )');
             });
         }, done);
     });

@@ -1,7 +1,7 @@
 {
     "TasksTimetable": {
-        "ScheduledTasks": "Geplande Taken",
-        "Introduction": "De volgende taken zijn gepland om uitgevoerd te worden gebaseerd op de huidige UTC tijd: %s.",
+        "ScheduledTasks": "Geplande taken",
+        "Introduction": "De volgende taken zijn gepland om uitgevoerd te worden gebaseerd op de huidige UTC-tijd: %s.",
         "NothingScheduled": "Geen geplande taken"
     }
 }

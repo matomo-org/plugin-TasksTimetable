@@ -1,0 +1,7 @@
+{
+    "TasksTimetable": {
+        "ScheduledTasks": "计划任务",
+        "Introduction": "下面的任务在安排在UTC时间：%s执行。",
+        "NothingScheduled": "没有计划任务"
+    }
+}

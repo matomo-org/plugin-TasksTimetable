@@ -1,5 +1,7 @@
 {
     "TasksTimetable": {
-        "ScheduledTasks": "Zaplanowane zadania"
+        "ScheduledTasks": "Zaplanowane zadania",
+        "Introduction": "Następujące zadania zostały zaplanowane do wykonania (czas UTC): %s.",
+        "NothingScheduled": "Nie zaplanowano zadań"
     }
 }

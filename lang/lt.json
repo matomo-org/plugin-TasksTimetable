@@ -1,6 +1,7 @@
 {
     "TasksTimetable": {
         "ScheduledTasks": "Suplanuotos užduotys",
+        "Introduction": "Šios užduotys yra suplanuotos įvykdyti, remiantis esamu pasauliniu laiku (UTC): %s.",
         "NothingScheduled": "Nėra suplanuotų užduočių"
     }
 }

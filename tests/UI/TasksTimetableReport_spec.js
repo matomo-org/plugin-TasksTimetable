@@ -12,15 +12,14 @@ describe("TasksTimetableReport", function () {
 
     this.fixture = "Piwik\\Plugins\\TasksTimetable\\tests\\Fixtures\\FakeTasksFixture";
 
-    it('should load the tasks timetable correctly', function (done) {
-        expect.screenshot('tasks_timetable').to.be.captureSelector('#content>*', function (page) {
-            page.load("?module=TasksTimetable&action=index&idSite=1&period=day&date=yesterday");
+    it('should load the tasks timetable correctly', async function () {
+        await page.goto("?module=TasksTimetable&action=index&idSite=1&period=day&date=yesterday");
 
-            // remove time values that change on each test run
-            page.evaluate(function () {
-                $('span.server-time').text('');
-                $('#content table td > span:contains("(in")').text('(in )');
-            });
-        }, done);
+        // remove time values that change on each test run
+        await page.evaluate(function () {
+            $('span.server-time').text('');
+            $('#content table td > span:contains("(in")').text('(in )');
+        });
+        expect(await page.screenshotSelector('#content>*')).to.matchImage('tasks_timetable');
     });
 });

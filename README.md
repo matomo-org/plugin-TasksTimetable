@@ -1,6 +1,6 @@
 # Piwik TasksTimetable Plugin
 
-[![Build Status](https://travis-ci.org/piwik/plugin-TasksTimetable.svg?branch=master)](https://travis-ci.org/piwik/plugin-TasksTimetable)
+[![Build Status](https://travis-ci.org/matomo-org/plugin-TasksTimetable.svg?branch=master)](https://travis-ci.org/matomo-org/plugin-TasksTimetable)
 
 ## Description
 

@@ -2,6 +2,6 @@
     "TasksTimetable": {
         "ScheduledTasks": "Zamanlanmış Görevler",
         "Introduction": "Şu görevler güncel UTC saatine göre çalışacak şekilde zamanlanmış: %s.",
-        "NothingScheduled": "Herhangi bir zamanlanmış görev yok"
+        "NothingScheduled": "Henüz bir zamanlanmış görev yok"
     }
 }

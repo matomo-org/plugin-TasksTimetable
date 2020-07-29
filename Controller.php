@@ -61,7 +61,6 @@ class Controller extends \Piwik\Plugin\ControllerAdmin
 
     /**
      * @param $timestamp
-     * @param $dateFormat
      * @return string
      * @throws \Exception
      */

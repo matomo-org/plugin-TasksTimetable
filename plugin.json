@@ -15,20 +15,20 @@
       "homepage": ""
     },
     {
-      "name": "Piwik",
-      "email": "hello@piwik.org",
-      "homepage": "http://piwik.org"
+      "name": "Matomo",
+      "email": "hello@matomo.org",
+      "homepage": "http://matomo.org"
     }
   ],
   "require": {
     "matomo": ">=4.0.0-b1,<5.0.0-b1"
   },
   "support": {
-    "issues": "https://github.com/piwik/plugin-TasksTimetable/issues",
-    "forum": "https://forum.piwik.org",
-    "source": "https://github.com/piwik/plugin-TasksTimetable"
+    "issues": "https://github.com/matomo-org/plugin-TasksTimetable/issues",
+    "forum": "https://forum.matomo.org",
+    "source": "https://github.com/matomo-org/plugin-TasksTimetable"
   },
   "license": "GPL v3+",
   "keywords": ["tasks", "scheduled", "timetable", "monitoring"],
-  "homepage": "http://piwik.org"
+  "homepage": "https://matomo.org"
 }

@@ -8,6 +8,7 @@
  */
 namespace Piwik\Plugins\TasksTimetable;
 
+use Piwik\Common;
 use Piwik\Date;
 use Piwik\Metrics\Formatter;
 use Piwik\Option;
@@ -30,7 +31,7 @@ class Controller extends \Piwik\Plugin\ControllerAdmin
         $tasks = Option::get('TaskScheduler.timetable');
 
         if (!empty($tasks)) {
-            $tasks = unserialize($tasks);
+            $tasks = Common::safe_unserialize($tasks);
         }
 
         if (empty($tasks)) {

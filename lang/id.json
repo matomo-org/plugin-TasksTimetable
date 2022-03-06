@@ -1,6 +1,7 @@
 {
     "TasksTimetable": {
-        "ScheduledTasks": "Tugas Terjadwal",
-        "NothingScheduled": "Tidak ada tugas terjadwal"
+        "Introduction": "Tugas-tugas berikut ini dijadwalkan untuk dieksekusi berdasarkan waktu UTC saat ini: %s.",
+        "NothingScheduled": "Tidak ada tugas terjadwal",
+        "ScheduledTasks": "Tugas Terjadwal"
     }
 }

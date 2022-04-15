@@ -1,1 +1,7 @@
-{}
+{
+    "TasksTimetable": {
+        "Introduction": "다음 작업은 현재 UTC 시간을 기준으로 실행되도록 예약되어 있습니다: %s.",
+        "NothingScheduled": "예약된 작업 없음",
+        "ScheduledTasks": "예약된 작업"
+    }
+}

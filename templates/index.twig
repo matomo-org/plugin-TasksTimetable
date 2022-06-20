@@ -3,34 +3,9 @@
 {% set title %}{{ 'TasksTimetable_ScheduledTasks'|translate }}{% endset %}
 
 {% block content %}
-    <div piwik-content-block
-         content-title="{{ title|e('html_attr') }}">
-        <p>
-            {{ 'TasksTimetable_Introduction'|translate('<span class="server-time">'~currentTime~'</span>')|raw }}
-        </p>
-
-        <table piwik-content-table>
-            <thead>
-            <tr>
-                <th>{{ 'General_Name'|translate }}</th>
-                <th>{{ 'General_Date'|translate }} in UTC timezone</th>
-            </tr>
-            </thead>
-            <tbody>
-            {% if tasks|length %}
-                {% for task in tasks %}
-                    <tr>
-                        <td>{{ task.name}}</td>
-                        <td>{{ task.executionDate }}<br /><span style="color:#999">(in {{ task.ts_difference|raw }})</span></td>
-                    </tr>
-                {% endfor %}
-            {% else %}
-                <tr>
-                    <td colspan="2"><br/>{{ 'TasksTimetable_NothingScheduled'|translate }}<br/><br/></td>
-                </tr>
-            {% endif %}
-            </tbody>
-        </table>
-    </div>
-
+    <div
+        vue-entry="TasksTimetable.TasksTable"
+        tasks="{{ tasks|json_encode|e('html_attr') }}"
+        current-time="{{ currentTime|json_encode|e('html_attr') }}"
+    ></div>
 {% endblock %}

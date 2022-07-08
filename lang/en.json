@@ -1,7 +1,7 @@
 {
     "TasksTimetable": {
-        "ScheduledTasks": "Scheduled Tasks",
-        "Introduction": "The following tasks are scheduled to be executed based on the current UTC time: %s.",
+        "ScheduledTasks": "Scheduled tasks",
+        "Introduction": "The following tasks will be executed based on the current UTC time: %s.",
         "NothingScheduled": "No scheduled tasks"
     }
 }

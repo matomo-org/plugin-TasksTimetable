@@ -5,7 +5,7 @@
 {% block content %}
     <div
         vue-entry="TasksTimetable.TasksTable"
-        tasks="{{ tasks|json_encode|e('html_attr') }}"
-        current-time="{{ currentTime|json_encode|e('html_attr') }}"
+        tasks="{{ tasks|json_encode }}"
+        current-time="{{ currentTime|json_encode }}"
     ></div>
 {% endblock %}

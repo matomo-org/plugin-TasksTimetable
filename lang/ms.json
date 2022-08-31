@@ -1,1 +1,7 @@
-{}
+{
+    "TasksTimetable": {
+        "Introduction": "Tugas berikut dijadualkan untuk dilaksanakan berdasarkan masa UTC semasa: %s.",
+        "NothingScheduled": "Tiada tugas yang dijadualkan",
+        "ScheduledTasks": "Tugas Berjadual"
+    }
+}

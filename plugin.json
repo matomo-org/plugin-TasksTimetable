@@ -1,6 +1,6 @@
 {
   "name": "TasksTimetable",
-  "version": "4.0.2",
+  "version": "5.0.0",
   "description": "List all maintenance tasks that are scheduled to run. Displays the task names and next execution time in a table.",
   "theme": false,
   "authors": [
@@ -21,7 +21,7 @@
     }
   ],
   "require": {
-    "matomo": ">=4.0.0-b1,<5.0.0-b1"
+    "matomo": ">=5.0.0-b1,<6.0.0-b1"
   },
   "support": {
     "issues": "https://github.com/matomo-org/plugin-TasksTimetable/issues",

@@ -6,9 +6,7 @@ on:
   push:
     branches:
       - '**.x-dev'
-      - 'next_release'
   workflow_dispatch:
-
 
 permissions:
   actions: read
@@ -22,19 +20,22 @@ permissions:
   security-events: none
   statuses: none
 concurrency:
-  group: ${{ github.head_ref }}
+  group: ${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
   PluginTests:
     runs-on: ubuntu-20.04
-    strategy:
-      fail-fast: false
     steps:
-      - name: run tests
-        uses: matomo-org/github-action-tests@90703dcf7f06eea15e79bc7403c7f122f64e651a
+      - uses: actions/checkout@v3
+        with:
+          lfs: true
+          persist-credentials: false
+      - name: UI Tests
+        uses: matomo-org/github-action-tests@main
         with:
           plugin-name: 'TasksTimetable'
           php-version: '7.2'
           test-type: 'UI'
-          git-ref: ${{ github.ref }}
+          node-version: '16'
+          artifact-pass: ${{ secrets.ARTIFACTS_PASS }}

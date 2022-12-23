@@ -24,14 +24,14 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  PluginTests:
+  UITests:
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v3
         with:
           lfs: true
           persist-credentials: false
-      - name: UI Tests
+      - name: Run UI Tests
         uses: matomo-org/github-action-tests@main
         with:
           plugin-name: 'TasksTimetable'
@@ -39,3 +39,4 @@ jobs:
           test-type: 'UI'
           node-version: '16'
           artifact-pass: ${{ secrets.ARTIFACTS_PASS }}
+          matomo-test-branch: 4.x-dev

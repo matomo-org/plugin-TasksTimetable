@@ -1,1 +1,7 @@
-{}
+{
+    "TasksTimetable": {
+        "Introduction": "Ondorengo atazak uneko UTC orduaren arabera exekutatzeko programatuta daude: %s.",
+        "NothingScheduled": "Ez dago programatutako atazarik",
+        "ScheduledTasks": "Programatutako atazak"
+    }
+}

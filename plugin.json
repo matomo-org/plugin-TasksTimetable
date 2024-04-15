@@ -30,5 +30,6 @@
   },
   "license": "GPL v3+",
   "keywords": ["tasks", "scheduled", "timetable", "monitoring"],
-  "homepage": "https://matomo.org"
+  "homepage": "https://matomo.org",
+  "category": "development"
 }

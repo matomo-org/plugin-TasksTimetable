@@ -1,6 +1,6 @@
 {
   "name": "TasksTimetable",
-  "version": "5.0.0",
+  "version": "5.0.1",
   "description": "List all maintenance tasks that are scheduled to run. Displays the task names and next execution time in a table.",
   "theme": false,
   "authors": [

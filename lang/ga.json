@@ -1,1 +1,7 @@
-{}
+{
+    "TasksTimetable": {
+        "Introduction": "Tá na tascanna seo a leanas sceidealaithe le cur i gcrích bunaithe ar an am UTC reatha: %s.",
+        "NothingScheduled": "Uimh tascanna sceidealta",
+        "ScheduledTasks": "Tascanna Sceidealta"
+    }
+}

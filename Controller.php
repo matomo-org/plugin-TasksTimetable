@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Matomo - free/libre analytics platform
  *
@@ -6,6 +7,7 @@
  * @license http://www.gnu.org/licenses/gpl-3.0.html GPL v3 or later
  *
  */
+
 namespace Piwik\Plugins\TasksTimetable;
 
 use Piwik\Common;
@@ -20,7 +22,6 @@ use Piwik\View;
  */
 class Controller extends \Piwik\Plugin\ControllerAdmin
 {
-
     public function index()
     {
         Piwik::checkUserHasSuperUserAccess();
@@ -57,7 +58,6 @@ class Controller extends \Piwik\Plugin\ControllerAdmin
         $view->tasks       = $tasksFormatted;
 
         return $view->render();
-
     }
 
     /**
@@ -71,6 +71,3 @@ class Controller extends \Piwik\Plugin\ControllerAdmin
         return Date::factory($timestamp)->getLocalized($dateFormat) . ' ' . Date::factory($timestamp)->getLocalized(' h:mm:ss');
     }
 }
-
-
-

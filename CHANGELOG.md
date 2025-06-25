@@ -1,5 +1,6 @@
 ## Changelog
 
+* 5.0.1 - 2025-07-07 Textual changes
 * 5.0.1 Added plugin category for Marketplace
 * 5.0.0 Compatibility with Matomo 5.0
 * 4.0.2 Better unserialise

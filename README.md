@@ -1,4 +1,4 @@
-# Piwik TasksTimetable Plugin
+# Matomo TasksTimetable Plugin
 
 [![Build Status](https://github.com/matomo-org/plugin-TasksTimetable/actions/workflows/matomo-tests.yml/badge.svg?branch=4.x-dev)](https://github.com/matomo-org/plugin-TasksTimetable/actions/workflows/matomo-tests.yml)
 

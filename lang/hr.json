@@ -1,1 +1,7 @@
-{}
+{
+    "TasksTimetable": {
+        "Introduction": "Sljedeći zadaci su zakazani za izvršavanje na temelju trenutačnog UTC vremena: %s.",
+        "NothingScheduled": "Nema zakazanih zadataka",
+        "ScheduledTasks": "Zakazani zadaci"
+    }
+}

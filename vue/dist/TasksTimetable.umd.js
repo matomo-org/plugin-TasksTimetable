@@ -36,14 +36,10 @@
     return target;
   };
   const _hoisted_1 = ["innerHTML"];
-  const _hoisted_2 = /* @__PURE__ */ vue.createElementVNode("br", null, null, -1);
-  const _hoisted_3 = { style: { "color": "#999" } };
-  const _hoisted_4 = ["innerHTML"];
-  const _hoisted_5 = { key: 0 };
-  const _hoisted_6 = { colspan: "2" };
-  const _hoisted_7 = /* @__PURE__ */ vue.createElementVNode("br", null, null, -1);
-  const _hoisted_8 = /* @__PURE__ */ vue.createElementVNode("br", null, null, -1);
-  const _hoisted_9 = /* @__PURE__ */ vue.createElementVNode("br", null, null, -1);
+  const _hoisted_2 = { style: { "color": "#999" } };
+  const _hoisted_3 = ["innerHTML"];
+  const _hoisted_4 = { key: 0 };
+  const _hoisted_5 = { colspan: "2" };
   function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
     const _component_ContentBlock = vue.resolveComponent("ContentBlock");
     const _directive_content_table = vue.resolveDirective("content-table");
@@ -67,23 +63,23 @@
                 vue.createElementVNode("td", null, vue.toDisplayString(task.name), 1),
                 vue.createElementVNode("td", null, [
                   vue.createTextVNode(vue.toDisplayString(task.executionDate), 1),
-                  _hoisted_2,
-                  vue.createElementVNode("span", _hoisted_3, [
-                    vue.createTextVNode(" (in "),
+                  _cache[2] || (_cache[2] = vue.createElementVNode("br", null, null, -1)),
+                  vue.createElementVNode("span", _hoisted_2, [
+                    _cache[0] || (_cache[0] = vue.createTextVNode(" (in ", -1)),
                     vue.createElementVNode("span", {
                       innerHTML: _ctx.$sanitize(task.ts_difference)
-                    }, null, 8, _hoisted_4),
-                    vue.createTextVNode(") ")
+                    }, null, 8, _hoisted_3),
+                    _cache[1] || (_cache[1] = vue.createTextVNode(") ", -1))
                   ])
                 ])
               ]);
             }), 128)),
-            !_ctx.tasks.length ? (vue.openBlock(), vue.createElementBlock("tr", _hoisted_5, [
-              vue.createElementVNode("td", _hoisted_6, [
-                _hoisted_7,
+            !_ctx.tasks.length ? (vue.openBlock(), vue.createElementBlock("tr", _hoisted_4, [
+              vue.createElementVNode("td", _hoisted_5, [
+                _cache[3] || (_cache[3] = vue.createElementVNode("br", null, null, -1)),
                 vue.createTextVNode(vue.toDisplayString(_ctx.translate("TasksTimetable_NothingScheduled")), 1),
-                _hoisted_8,
-                _hoisted_9
+                _cache[4] || (_cache[4] = vue.createElementVNode("br", null, null, -1)),
+                _cache[5] || (_cache[5] = vue.createElementVNode("br", null, null, -1))
               ])
             ])) : vue.createCommentVNode("", true)
           ])

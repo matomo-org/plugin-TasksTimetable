@@ -67,7 +67,7 @@
                   vue.createElementVNode("span", _hoisted_2, [
                     _cache[0] || (_cache[0] = vue.createTextVNode(" (in ", -1)),
                     vue.createElementVNode("span", {
-                      innerHTML: _ctx.$sanitize(task.ts_difference)
+                      innerHTML: _ctx.$sanitize(task.ts_difference || "")
                     }, null, 8, _hoisted_3),
                     _cache[1] || (_cache[1] = vue.createTextVNode(") ", -1))
                   ])

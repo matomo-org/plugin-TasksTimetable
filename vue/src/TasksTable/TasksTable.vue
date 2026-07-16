@@ -23,7 +23,7 @@
           <td>{{ task.name}}</td>
           <td>{{ task.executionDate }}<br />
             <span style="color:#999">
-              (in <span v-html="$sanitize(task.ts_difference)"></span>)
+              (in <span v-html="$sanitize(task.ts_difference || '')"></span>)
             </span>
           </td>
         </tr>
@@ -36,7 +36,14 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
+import { defineComponent, PropType } from 'vue';
+
+interface ScheduledTask {
+  name?: string;
+  ts?: string | number;
+  executionDate?: string;
+  ts_difference?: string;
+}
 import { ContentBlock, ContentTable, translate } from 'CoreHome';
 
 export default defineComponent({
@@ -46,7 +53,7 @@ export default defineComponent({
       required: true,
     },
     tasks: {
-      type: Array,
+      type: Array as PropType<ScheduledTask[]>,
       required: true,
     },
   },

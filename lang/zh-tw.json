@@ -1,7 +1,7 @@
 {
     "TasksTimetable": {
-        "ScheduledTasks": "已排定任務",
-        "Introduction": "下列任務已排定執行於：%s。",
-        "NothingScheduled": "沒有排定的任務"
+        "Introduction": "下列任務的排定執行時間是以目前的 UTC 時間為準：%s。",
+        "NothingScheduled": "沒有排定的任務",
+        "ScheduledTasks": "已排定任務"
     }
 }

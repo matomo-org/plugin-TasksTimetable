@@ -1,1 +1,7 @@
-{}
+{
+    "TasksTimetable": {
+        "Introduction": "Desse oppgåvene er planlagde å køyre ut frå gjeldande UTC-tid: %s.",
+        "NothingScheduled": "Ingen planlagde oppgåver",
+        "ScheduledTasks": "Planlagde oppgåver"
+    }
+}

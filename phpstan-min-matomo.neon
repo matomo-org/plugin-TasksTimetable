@@ -1,0 +1,12 @@
+includes:
+    - phpstan.neon
+
+parameters:
+    tmpDir: /tmp/phpstan/TasksTimetable/min-matomo
+    ignoreErrors:
+        # Matomo 5.0 documents Date::getLocalized() as taking a string, though it resolves the
+        # DATE_FORMAT_* constants through getFormatPattern(); later versions document both.
+        -
+            identifier: argument.type
+            path: Controller.php
+            count: 1

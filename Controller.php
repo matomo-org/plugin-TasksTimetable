@@ -67,7 +67,6 @@ class Controller extends \Piwik\Plugin\ControllerAdmin
      */
     protected function getFormattedDatetime($timestamp)
     {
-        $dateFormat = Piwik::translate(Date::DATE_FORMAT_LONG);
-        return Date::factory($timestamp)->getLocalized($dateFormat) . ' ' . Date::factory($timestamp)->getLocalized(' h:mm:ss');
+        return Date::factory($timestamp)->getLocalized(Date::DATE_FORMAT_LONG) . ' ' . Date::factory($timestamp)->getLocalized(' h:mm:ss');
     }
 }

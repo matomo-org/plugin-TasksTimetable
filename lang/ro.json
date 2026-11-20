@@ -1,6 +1,7 @@
 {
     "TasksTimetable": {
-        "ScheduledTasks": "Activități programate",
-        "NothingScheduled": "Nu sunt programate sarcini"
+        "Introduction": "Următoarele sarcini sunt programate pentru execuție în funcție de ora UTC curentă: %s.",
+        "NothingScheduled": "Nu sunt programate sarcini",
+        "ScheduledTasks": "Activități programate"
     }
 }

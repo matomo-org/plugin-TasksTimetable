@@ -1,5 +1,6 @@
 ## Changelog
 
+* 6.0.1 - 2026-11-23 - Updated translations
 * 6.0.0 - 2026-08-09 Compatibility with Matomo 6.0
 * 5.0.2 - 2025-07-07 Textual changes
 * 5.0.1 Added plugin category for Marketplace
